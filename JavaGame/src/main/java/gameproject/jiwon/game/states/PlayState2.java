@@ -8,7 +8,6 @@ import gameproject.jiwon.game.graphics.Sprite;
 import gameproject.jiwon.game.items.Heart;
 import gameproject.jiwon.game.tiles.TileManager;
 import gameproject.jiwon.game.utils.*;
-import gameproject.jiwon.game.utils.*;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -17,6 +16,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class PlayState2  extends GameState{
+
     public Player player;
     private ArrayList<Enemy> enemies;
     private ArrayList<Enemy2>       enemies2;
@@ -78,18 +78,18 @@ public class PlayState2  extends GameState{
 
         hearts.add(new Heart("items/heart.png", 0 + (GamePanel.width / 2) - 32, 0 + (GamePanel.height / 2) - 32 + 150, 32));
 
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 470, 0 + (GamePanel.height / 2) - 32 + 150), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 470, 0 + (GamePanel.height / 2) - 32 + 150), 64));
         enemies2.add(new Enemy2(new Sprite("entity/yoshi.png", 38, 40), new Vector2f(0 + (GamePanel.width / 2) - 32 + 210, 0 + (GamePanel.height / 2) - 32 + 100), 64));
 
 
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 410, 0 + (GamePanel.height / 2) - 32 + 850), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 410, 0 + (GamePanel.height / 2) - 32 + 850), 64));
         enemies2.add(new Enemy2(new Sprite("entity/yoshi.png", 38, 40) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 510, 0 + (GamePanel.height / 2) - 32 + 850), 64));
 
 
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 210, 0 + (GamePanel.height / 2) - 32 + 850), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 210, 0 + (GamePanel.height / 2) - 32 + 850), 64));
         enemies2.add(new Enemy2(new Sprite("entity/yoshi.png", 38, 40) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 210, 0 + (GamePanel.height / 2) - 32 + 850), 64));
 
-        player  = new Player(new Sprite("entity/linkformatted.png"), new Vector2f(0 + (GamePanel.width / 2) - 32, 0 + (GamePanel.height / 2) - 32 ), 64);
+        player  = new Player(new Sprite("entity/player.png", 48, 48), new Vector2f(0 + (GamePanel.width / 2) - 32, 0 + (GamePanel.height / 2) - 32 ), 64);
 
     }
 

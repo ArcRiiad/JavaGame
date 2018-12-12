@@ -78,23 +78,23 @@ public class PlayState extends GameState{
 
         hearts.add(new Heart("items/heart.png", 0 + (GamePanel.width / 2) - 32, 0 + (GamePanel.height / 2) - 32 + 150, 32));
 
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 150, 0 + (GamePanel.height / 2) - 32 + 150), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 470, 0 + (GamePanel.height / 2) - 32 + 150), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 210, 0 + (GamePanel.height / 2) - 32 + 150), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1390, 0 + (GamePanel.height / 2) - 32 + 200), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 150, 0 + (GamePanel.height / 2) - 32 + 150), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 470, 0 + (GamePanel.height / 2) - 32 + 150), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 210, 0 + (GamePanel.height / 2) - 32 + 150), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1390, 0 + (GamePanel.height / 2) - 32 + 200), 64));
 
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 210, 0 + (GamePanel.height / 2) - 32 + 550), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 410, 0 + (GamePanel.height / 2) - 32 + 850), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 910, 0 + (GamePanel.height / 2) - 32 + 1150), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 730, 0 + (GamePanel.height / 2) - 32 + 1350), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 210, 0 + (GamePanel.height / 2) - 32 + 550), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 410, 0 + (GamePanel.height / 2) - 32 + 850), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 910, 0 + (GamePanel.height / 2) - 32 + 1150), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 730, 0 + (GamePanel.height / 2) - 32 + 1350), 64));
 
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1590, 0 + (GamePanel.height / 2) - 32 + 600), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1590, 0 + (GamePanel.height / 2) - 32 + 1000), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1590, 0 + (GamePanel.height / 2) - 32 + 950), 64));
-        enemies.add(new Enemy(new Sprite("entity/littlegirl.png", 48, 48) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1590, 0 + (GamePanel.height / 2) - 32 + 1150), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1590, 0 + (GamePanel.height / 2) - 32 + 600), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1590, 0 + (GamePanel.height / 2) - 32 + 1000), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1590, 0 + (GamePanel.height / 2) - 32 + 950), 64));
+        enemies.add(new Enemy(new Sprite("entity/monster.png", 64, 64) , new Vector2f(0 + (GamePanel.width / 2) - 32 + 1590, 0 + (GamePanel.height / 2) - 32 + 1150), 64));
 
 
-        player  = new Player(new Sprite("entity/linkformatted.png"), new Vector2f(0 + (GamePanel.width / 2) - 32, 0 + (GamePanel.height / 2) - 32 ), 64);
+        player  = new Player(new Sprite("entity/player.png", 48, 48), new Vector2f(0 + (GamePanel.width / 2) - 32, 0 + (GamePanel.height / 2) - 32 ), 64);
 
     }
 
