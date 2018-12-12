@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/arch/riad/game/GamePanel.java" line="33" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/GamePanel.java" line="33" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39aa640-843a-4967-8d70-812672665345" name="Default Changelist" comment="" />
@@ -16,97 +16,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="151" selection-start-line="151" selection-end-line="151" />
+            <state relative-caret-position="25">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Player#0;class#Player#0" />
                 <element signature="method#move#0;class#Player#0" />
+                <element signature="e#3086#3294#1" />
+                <element signature="e#3345#3899#1" />
+                <element signature="method#render#0;class#Player#0" />
+                <element signature="method#input#0;class#Player#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="method#Entity#0;class#Entity#0" />
+                <element signature="method#setAnimation#0;class#Entity#0" />
+                <element signature="method#animate#0;class#Entity#0" />
+                <element signature="method#setHitBoxDirection#0;class#Entity#0" />
+                <element signature="method#update#0;class#Entity#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/GameOverState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/GameStateManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/PlayState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Enemy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="106" column="36" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Enemy#0;class#Enemy#0" />
+                <element signature="method#move#0;class#Enemy#0" />
+                <element signature="method#update#0;class#Enemy#0" />
+                <element signature="method#render#0;class#Enemy#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Enemy2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#move#0;class#Enemy2#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/PlayState2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Entity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/GameLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/PlayState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#update#0;class#PlayState#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/MenuState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" selection-start-line="29" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/Score/scores.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/GameStateManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/GameOverState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Enemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#move#0;class#Enemy#0" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -126,14 +144,15 @@
       <find>tm.add(new TileMapObj(data[i], sprite, width, height, blockWidth, blockHeight, tileColumns));</find>
       <find>old</find>
       <find>resetPosition</find>
+      <find>GAMEOVER</find>
+      <find>map</find>
+      <find>_score</find>
+      <find>reset</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/arch/riad/game/GameLauncher.java" />
-        <option value="$PROJECT_DIR$/src/arch/riad/game/Window.java" />
-        <option value="$PROJECT_DIR$/src/arch/riad/game/utils/KeyHandler.java" />
         <option value="$PROJECT_DIR$/src/arch/riad/game/utils/Vector2f.java" />
         <option value="$PROJECT_DIR$/src/arch/riad/game/states/MenuState.java" />
         <option value="$PROJECT_DIR$/src/arch/riad/game/states/PauseState.java" />
@@ -162,15 +181,29 @@
         <option value="$PROJECT_DIR$/src/arch/riad/game/entity/Player.java" />
         <option value="$PROJECT_DIR$/src/arch/riad/game/states/GameStateManager.java" />
         <option value="$PROJECT_DIR$/src/arch/riad/game/states/ScoreBoard.java" />
-        <option value="$PROJECT_DIR$/res/Score/scores.json" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/ScoreBoard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/GameStateManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/MenuState.java" />
         <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/GameOverState.java" />
         <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/utils/KeyHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/PlayState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/items/hearth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/items/items.java" />
+        <option value="$PROJECT_DIR$/res/Score/scores.json" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/items/Heart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/utils/Score.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Enemy2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/ScoreBoard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/MenuState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/utils/Music.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/graphics/Sprite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/GameStateManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/PlayState2.java" />
         <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/riad/game/states/PlayState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arch/jiwon/game/states/PlayState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/PlayState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/GameOverState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/PlayState2.java" />
       </list>
     </option>
   </component>
@@ -190,12 +223,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="JavaGame" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="JavaGame" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="jar" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
@@ -203,16 +230,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-382" />
+    <option name="y" value="-11" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -234,29 +262,6 @@
             <path>
               <item name="JavaGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaGame" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGame" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="buttons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGame" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="Score" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGame" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="screen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGame" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,19 +283,37 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gameproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gameproject" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gameproject" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="states" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544024382720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544619926501" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/yt-java-game-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -299,15 +322,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaGame\res\screen" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="arch.riad.game.utils" />
       <recent name="arch.riad.game.states" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaGame\res\music" />
       <recent name="D:\JavaGame\res\tile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaGame\res\screen" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,7 +348,7 @@
   </component>
   <component name="RunManager">
     <configuration name="GameLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arch.riad.game.GameLauncher" />
+      <option name="MAIN_CLASS_NAME" value="gameproject.jiwon.game.GameLauncher" />
       <module name="JavaGame" />
       <extension name="coverage">
         <pattern>
@@ -357,12 +381,17 @@
       <workItem from="1543892529916" duration="37437000" />
       <workItem from="1543989085712" duration="25038000" />
       <workItem from="1544087897718" duration="9986000" />
-      <workItem from="1544248602245" duration="607000" />
+      <workItem from="1544248602245" duration="3357000" />
+      <workItem from="1544351173426" duration="24691000" />
+      <workItem from="1544452248263" duration="1403000" />
+      <workItem from="1544590316358" duration="1996000" />
+      <workItem from="1544595474883" duration="7015000" />
+      <workItem from="1544603805405" duration="8635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77223000" />
+    <option name="totallyTimeSpent" value="123713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,8 +404,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.1663113" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.12526652" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.2260128" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,8 +415,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Duplicate detector" order="0" weight="0.32936507" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32827735" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32855567" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3488624" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -396,13 +426,13 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.104477614" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.026652452" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -412,195 +442,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test.form" />
-    <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/PauseState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/font/ZeldaFont.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/graphics/Font.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/graphics/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-443">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/tiles/blocks/NormBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="108" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/tiles/blocks/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/tiles/TileMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/tiles/blocks/HoleBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/tiles/blocks/ObjBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/tiles/TileMapNorm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arch/riad/game/utils/Entity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/tiles/TileMapObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/tile/tilemap.tmx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/tiles/TileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="74" column="42" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/utils/TileCollision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/graphics/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="74" selection-start-line="74" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/buttons/playAgainButton.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/GameLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/utils/AABB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/utils/MouseHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/utils/MouseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
@@ -611,7 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/utils/Vector2f.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/utils/Vector2f.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
@@ -626,22 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/GamePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3256#3257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/entity/littlegirl.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/entity/yoshi.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/res/entity/bunny.png">
@@ -652,28 +482,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/tile/dungeon_tiles_formatted_v2.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/tile/tilemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding>
-            <element signature="n#data#0;n#layer#0;n#map#0;n#!!top" />
-            <element signature="n#data#0;n#layer#1;n#map#0;n#!!top" />
-            <element signature="n#layer#2;n#map#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="uml://MODULES/mdl-JavaGame">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -689,6 +497,226 @@
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/screen/LeaderBoard.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/buttons/back-button.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/utils/KeyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Key#0;class#KeyHandler#0" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/toto:JavaGame:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>toto:JavaGame:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="79.0">toto:JavaGame:1.0-SNAPSHOT</node>
+            <node x="13.5" y="0.0">com.google.code.gson:gson:jar:2.3.1</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="toto:JavaGame:1.0-SNAPSHOT" target="com.google.code.gson:gson:jar:2.3.1">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-275.0" y="-142.0" />
+          <SelectedNodes>
+            <node>toto:JavaGame:1.0-SNAPSHOT</node>
+            <node>com.google.code.gson:gson:jar:2.3.1</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/JavaGame">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/JavaGame/res">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/res</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/arch.riad.game.GameLauncher">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>arch.riad.game.GameLauncher</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">arch.riad.game.GameLauncher</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-254.0" y="-181.0" />
+          <SelectedNodes>
+            <node>arch.riad.game.GameLauncher</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/arch.riad.game.GamePanel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>arch.riad.game.GamePanel</OriginalElement>
+          <nodes>
+            <node x="363.34375" y="237.0">javax.swing.JComponent</node>
+            <node x="580.0" y="158.0">java.beans.JavaBean</node>
+            <node x="148.0" y="0.0">java.awt.MenuContainer</node>
+            <node x="389.0" y="158.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="240.34375" y="237.0">javax.accessibility.Accessible</node>
+            <node x="688.5" y="316.0">java.lang.Runnable</node>
+            <node x="145.85416666666663" y="79.0">java.awt.Component</node>
+            <node x="0.0" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="299.0" y="0.0">java.io.Serializable</node>
+            <node x="662.5" y="237.0">java.lang.FunctionalInterface</node>
+            <node x="506.09375" y="395.0">arch.riad.game.GamePanel</node>
+            <node x="151.85416666666663" y="158.0">java.awt.Container</node>
+            <node x="386.0" y="316.0">javax.swing.JPanel</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
+              <point x="0.0" y="-14.5" />
+              <point x="426.5" y="291.0" />
+              <point x="421.34375" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="14.5" y="-14.5" />
+              <point x="435.84375" y="207.0" />
+              <point x="474.5" y="207.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="arch.riad.game.GamePanel" target="java.lang.Runnable">
+              <point x="27.0" y="-14.5" />
+              <point x="587.09375" y="370.0" />
+              <point x="737.5" y="370.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.awt.Container">
+              <point x="-43.5" y="-14.5" />
+              <point x="377.84375" y="217.0" />
+              <point x="201.85416666666663" y="217.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="2.8421709430404007E-14" y="-14.5" />
+              <point x="201.85416666666666" y="54.0" />
+              <point x="213.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
+              <point x="-27.0" y="-14.5" />
+              <point x="399.5" y="291.0" />
+              <point x="291.84375" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
+              <point x="27.0" y="-14.5" />
+              <point x="453.5" y="291.0" />
+              <point x="652.0" y="291.0" />
+              <point x="24.0" y="14.5" />
+            </edge>
+            <edge source="arch.riad.game.GamePanel" target="javax.swing.JPanel">
+              <point x="-27.0" y="-14.5" />
+              <point x="533.09375" y="370.0" />
+              <point x="426.5" y="370.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="-37.333333333333314" y="-14.5" />
+              <point x="164.52083333333331" y="54.0" />
+              <point x="64.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="37.33333333333334" y="-14.5" />
+              <point x="239.18749999999997" y="54.0" />
+              <point x="325.5" y="54.0" />
+              <point x="-26.5" y="14.5" />
+            </edge>
+            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
+              <point x="43.5" y="-14.5" />
+              <point x="464.84375" y="217.0" />
+              <point x="604.0" y="217.0" />
+              <point x="-24.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="2.8421709430404007E-14" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.io.Serializable">
+              <point x="-14.5" y="-14.5" />
+              <point x="406.84375" y="207.0" />
+              <point x="378.5" y="207.0" />
+              <point x="26.5" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="89.0" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -732,126 +760,345 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/Window.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/utils/AABB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="1105">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/screen/LeaderBoard.png">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/entity/yoshi.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/res/tile/tilemap.tmx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
+        <state relative-caret-position="-272" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/buttons/back-button.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/ScoreBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/ScoreBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        <state relative-caret-position="340">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/utils/KeyHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/tiles/TileMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="102">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/tiles/TileMapNorm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#Key#0;class#KeyHandler#0" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/tiles/blocks/NormBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        <state relative-caret-position="357">
+          <caret line="27" column="108" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Player#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/PlayState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/tiles/blocks/HoleBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#update#0;class#PlayState#0" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/MenuState.java">
+    <entry file="file://$PROJECT_DIR$/res/tile/tilemap2.tmx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/tile/tilemap2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" selection-start-line="29" selection-end-line="30" />
+        <state relative-caret-position="-102">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#layer#2;n#map#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/Score/scores.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="11" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/GameStateManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/MenuState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/utils/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/utils/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/tiles/TileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/tile/tilemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="n#data#0;n#layer#0;n#map#0;n#!!top" />
+            <element signature="n#layer#2;n#map#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/graphics/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/graphics/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Sprite#0;class#Sprite#0" />
+            <element signature="method#Sprite#1;class#Sprite#0" />
+            <element signature="method#setSize#0;class#Sprite#0" />
+            <element signature="method#setWidth#0;class#Sprite#0" />
+            <element signature="method#setHeight#0;class#Sprite#0" />
+            <element signature="method#loadSprite#0;class#Sprite#0" />
+            <element signature="method#loadSpriteArray#0;class#Sprite#0" />
+            <element signature="method#getSprite#1;class#Sprite#0" />
+            <element signature="method#drawArray#0;class#Sprite#0" />
+            <element signature="method#drawArray#1;class#Sprite#0" />
+            <element signature="method#drawArray#2;class#Sprite#0" />
+            <element signature="method#drawArray#3;class#Sprite#0" />
+            <element signature="method#drawArray#4;class#Sprite#0" />
+            <element signature="method#drawArray#5;class#Sprite#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/graphics/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="34" />
+          <folding>
+            <element signature="method#Animation#0;class#Animation#0" />
+            <element signature="method#setFrames#0;class#Animation#0" />
+            <element signature="method#update#0;class#Animation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/items/Heart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/items/items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#items#0;class#items#0" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="133" column="22" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GamePanel#0;class#GamePanel#0" />
+            <element signature="method#addNotify#0;class#GamePanel#0" />
+            <element signature="method#init#0;class#GamePanel#0" />
+            <element signature="method#run#0;class#GamePanel#0" />
+            <element signature="e#3318#3319#0" expanded="true" />
+            <element signature="e#3355#3356#0" expanded="true" />
+            <element signature="method#render#0;class#GamePanel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Player#0;class#Player#0" />
+            <element signature="method#move#0;class#Player#0" />
+            <element signature="e#3086#3294#1" />
+            <element signature="e#3345#3899#1" />
+            <element signature="method#render#0;class#Player#0" />
+            <element signature="method#input#0;class#Player#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/GameStateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/states/GameOverState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/PlayState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Enemy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="493">
+          <caret line="106" column="36" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Enemy#0;class#Enemy#0" />
             <element signature="method#move#0;class#Enemy#0" />
+            <element signature="method#update#0;class#Enemy#0" />
+            <element signature="method#render#0;class#Enemy#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arch/riad/game/entity/Entity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Enemy2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#move#0;class#Enemy2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="method#Entity#0;class#Entity#0" />
+            <element signature="method#setAnimation#0;class#Entity#0" />
+            <element signature="method#animate#0;class#Entity#0" />
+            <element signature="method#setHitBoxDirection#0;class#Entity#0" />
+            <element signature="method#update#0;class#Entity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/GameOverState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/states/PlayState2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameproject/jiwon/game/GameLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -920,7 +1167,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.googlecode.json-simple:json-simple:1.1.1</last-edited>
+          <last-edited>Maven: com.google.code.gson:gson:2.3.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -931,5 +1178,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>
