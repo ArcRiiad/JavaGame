@@ -94,7 +94,7 @@ public class GamePanel extends JPanel implements Runnable{
             int thisSecond = (int)(lastUpdateTime / 1000000000);
             if (thisSecond > lastSecondTime){
                 if (frameCount != oldFrameCount){
-                    System.out.println("New Second " + thisSecond + " " + frameCount);
+                    System.out.println("FPS : " + frameCount);
                     oldFrameCount = frameCount;
                 }
                 frameCount = 0;
@@ -125,7 +125,7 @@ public class GamePanel extends JPanel implements Runnable{
 
     public void render(){
         if (g != null){
-            g.setColor(Color.PINK);
+            g.setColor(new Color(33, 30, 39));
             g.fillRect(0,0, width, height);
             gsm.render(g);
         }
